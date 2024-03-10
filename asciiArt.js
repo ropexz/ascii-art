@@ -37,7 +37,6 @@ const asciiConvert = async (imagePath, saveAs, scale) => {
     downscaledCanvas.width,
     downscaledCanvas.height
   ).data;
-  console.log(pixelData);
 
   // ASCII characterd for different brightness levels
   const char = [" ", "'", "(", "/", "+", "*", "&", "%", "@"];
